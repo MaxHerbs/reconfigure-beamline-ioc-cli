@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "reconfigure-ioc-cli"
+version = "0.1.0"
+description = ""
+authors = ["Max Herbert <max.herbert@diamond.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.13.0"
+
+[tool.poetry.scripts]
+reconfigure-ioc = "reconfigure_ioc_cli.main:app"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,2 @@
+shared_data_dir: .
+local_data_dir: ~/.config/reconfigure_ioc/
